@@ -1,0 +1,12 @@
+/* FOOTER MOVIL - TABLET*/
+.footer{
+  background-color: #000000;
+  color: white;
+  padding: 5% 0;
+  font-family: 'PT Sans', sans-serif;
+}
+.footer p{
+  font-size: 10px;
+  font-family: 'PT Sans', sans-serif;
+
+}

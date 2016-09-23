@@ -1,0 +1,98 @@
+.font h1, .font p{
+ font-family: 'PT Sans', sans-serif;
+}
+.font p{
+  font-size: 15px;
+  margin-top: 5%;
+}
+
+/* CAMBIO DE COLORES EN BOTON ENVIAR */
+.btn-primary { 
+  color: #ffffff; 
+  background-color: #000000; 
+  border-color: #000000; 
+  margin-top: 5%;
+  font-family: 'PT Sans', sans-serif;
+} 
+.btn-primary:hover, 
+.btn-primary:focus, 
+.btn-primary:active, 
+.btn-primary.active, 
+.open .dropdown-toggle.btn-primary { 
+  color: #ffffff; 
+  background-color: #F80500; 
+  border-color: #000000; 
+} 
+.btn-sm{
+	padding: 1% 20%;
+	margin-bottom: 20px;
+}
+/* ESTILOS FORMULARIO  */
+.formu{
+  margin-top: 2%;
+}
+#input{
+  background-color: #eeeeee;
+  font-family: 'PT Sans', sans-serif;
+}
+.form-control{
+  border-top: 2px solid #838383;
+  border-left: 2px solid #838383;
+}
+/* ESTILOS CHECKBOX RADIO */
+.radio label, .radio label span{
+  font-size: 13px;
+  font-family: 'PT Sans', sans-serif;
+}
+.check{
+  margin-top: 2%;
+}
+.uno {
+  position: relative;
+  left: 13%;
+}
+.dos {
+  position: relative;
+  left: 33%;
+}
+.tres {
+  position: relative;
+  left: 39%;
+}
+.cuatro {
+  position: relative;
+  left: 34%;
+}
+.cinco {
+  position: relative;
+  left: 26%;
+}
+.seis {
+  position: relative;
+  left: 63%;
+}
+/* ESTILOS TEXT AREA*/
+.t-area{
+  background-color: #eeeeee; 
+  font-family: 'PT Sans', sans-serif;
+}
+
+/* media query */
+@media (max-width: 480px) {
+  .uno, .dos, .tres, .cuatro, .cinco, .seis {
+  left: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  label{
+    display: block;
+  }  
+  .uno, .dos, .tres, .cuatro, .cinco, .seis {
+  float: right;
+  position: relative;
+  left: 0;  
+  }
+ 
+}
+
